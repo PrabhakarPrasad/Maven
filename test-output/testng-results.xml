@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="117" started-at="2018-01-21T12:20:40Z" finished-at="2018-01-21T12:20:40Z">
+  <suite name="Default suite" duration-ms="31531" started-at="2018-01-21T18:38:29Z" finished-at="2018-01-21T18:39:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="117" started-at="2018-01-21T12:20:40Z" finished-at="2018-01-21T12:20:40Z">
+    <test name="Default test" duration-ms="31531" started-at="2018-01-21T18:38:29Z" finished-at="2018-01-21T18:39:00Z">
       <class name="com.maven.selenium.Maven_Jenkins">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.maven.selenium.Maven_Jenkins@5419f379]" name="Test1" duration-ms="33" started-at="2018-01-21T17:50:40Z" finished-at="2018-01-21T17:50:40Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.maven.selenium.Maven_Jenkins@1593948d]" name="Test1" duration-ms="2" started-at="2018-01-22T00:09:00Z" finished-at="2018-01-22T00:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
       </class> <!-- com.maven.selenium.Maven_Jenkins -->
+      <class name="com.maven.selenium.MultiWindow">
+        <test-method status="PASS" signature="t1()[pri:0, instance:com.maven.selenium.MultiWindow@28feb3fa]" name="t1" duration-ms="31427" started-at="2018-01-22T00:08:29Z" finished-at="2018-01-22T00:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+      </class> <!-- com.maven.selenium.MultiWindow -->
+      <class name="com.maven.selenium.Git_Confirmation">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.maven.selenium.Git_Confirmation@482f8f11]" name="test1" duration-ms="2" started-at="2018-01-22T00:09:00Z" finished-at="2018-01-22T00:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.maven.selenium.Git_Confirmation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
