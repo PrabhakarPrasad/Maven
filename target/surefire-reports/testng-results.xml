@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29043" started-at="2018-01-21T13:59:34Z" finished-at="2018-01-21T14:00:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29043" started-at="2018-01-21T13:59:34Z" finished-at="2018-01-21T14:00:03Z">
+      <class name="com.maven.selenium.Maven_Jenkins">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.maven.selenium.Maven_Jenkins@7a79be86]" name="Test1" duration-ms="25" started-at="2018-01-21T19:29:34Z" finished-at="2018-01-21T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- com.maven.selenium.Maven_Jenkins -->
+      <class name="com.maven.selenium.MultiWindow">
+        <test-method status="PASS" signature="t1()[pri:0, instance:com.maven.selenium.MultiWindow@880ec60]" name="t1" duration-ms="28971" started-at="2018-01-21T19:29:34Z" finished-at="2018-01-21T19:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+      </class> <!-- com.maven.selenium.MultiWindow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
