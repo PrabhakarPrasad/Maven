@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.maven.selenium.Maven_Jenkins"/>
+      <class name="com.maven.selenium.Git_Confirmation"/>
       <class name="com.maven.selenium.MultiWindow"/>
     </classes>
   </test> <!-- Test -->
