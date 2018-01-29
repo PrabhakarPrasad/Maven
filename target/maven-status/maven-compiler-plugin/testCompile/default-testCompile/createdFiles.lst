@@ -1,2 +1,3 @@
 com\maven\selenium\MultiWindow.class
 com\maven\selenium\Maven_Jenkins.class
+com\maven\selenium\Git_Confirmation.class

@@ -4,8 +4,10 @@
   <test name="Test">
     <classes>
       <class name="com.maven.selenium.Maven_Jenkins"/>
+      <class name="com.maven.TestScript.LoginPageTest"/>
       <class name="com.maven.selenium.Git_Confirmation"/>
       <class name="com.maven.selenium.MultiWindow"/>
+      <class name="com.maven.TestScript.RegistrationPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -32,6 +32,7 @@ public class MultiWindow {
         driver.findElement(By.xpath(".//*[@id='menu-item-66']/a")).click();
         Actions act=new Actions(driver);
         act.moveToElement(driver.findElement(By.xpath(".//*[@id='menu-item-153']/a"))).click().perform(); 
+        driver.close();
 
 	}
 
