@@ -3,12 +3,12 @@ package com.maven.TestScript;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
+import com.maven.PageLibs.HomePage;
 import com.maven.PageLibs.LoginPage;
 import com.maven.Base.TestBase;
 
 public class LoginPageTest extends TestBase{
-	
+	HomePage HomePage;
 	LoginPage LoginPage;
 	
 	 public LoginPageTest(){
@@ -17,20 +17,14 @@ public class LoginPageTest extends TestBase{
 	@BeforeMethod
 	public void setup(){
 		initializetion();
+		HomePage=new HomePage();
 		LoginPage =new LoginPage();		
 		}
+
 	
-	@Test(priority=1)
-	public void DemoLink(){
-		LoginPage.VarifyDemoLink();
-	}
-	
-	@Test(priority=2)
-	public void OrderLink(){
-		LoginPage.VarifyOrderLink();
-	}
-	@Test(priority=3)
+	@Test
 	public void validatelogin() {
+		HomePage.VarifyLoginLInk();
 		LoginPage.loginPage(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	

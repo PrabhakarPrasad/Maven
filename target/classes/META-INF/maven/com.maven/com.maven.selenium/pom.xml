@@ -36,6 +36,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     <artifactId>testng</artifactId>
     <version>6.11</version>
 </dependency>
+<!-- pom.xml Version 2.x -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
 
 </dependencies>
   
